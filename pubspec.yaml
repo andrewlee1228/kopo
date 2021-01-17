@@ -10,7 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  webview_flutter: ^1.0.1
+    
+  webview_flutter:
+    git:
+      url: git://github.com/andrewlee1228/plugins.git
+      path: packages/webview_flutter
+      ref: master
 
 dev_dependencies:
   flutter_test:
